@@ -43,6 +43,8 @@ let sing = (): void => {
     console.log('lalalala');
 }
     //never
+    // Function returning never must not have a reachable end point
+
 let error = () => {
     throw Error('oops')
 }
